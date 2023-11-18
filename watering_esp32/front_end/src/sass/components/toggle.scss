@@ -1,0 +1,50 @@
+.Toggle {
+  grid-column: 1/-1;
+  grid-row: 2;
+  justify-self: center;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  .backgroundBadOpacity {
+    background-color: #272a2a5e;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    .ball {
+      background-color: white;
+      height: 30px;
+      width: 30px;
+      scale: 0.8;
+      border-radius: 50%;
+      position: absolute;
+      left: 0;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+  .backgroundgreen {
+    background-color: #29b5a8;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    .ballChange {
+      background-color: white;
+      height: 30px;
+      width: 30px;
+      scale: 0.8;
+      border-radius: 50%;
+      position: absolute;
+      left: 70px;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+}
